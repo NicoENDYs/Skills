@@ -1,6 +1,6 @@
 ---
 name: example-skill
-description: Plantilla de skill — Claude la invoca automáticamente cuando esta descripción coincide con la tarea actual. Reemplaza este texto por las condiciones reales de activación, empezando por "Usar cuando...".
+description: PLANTILLA inerte de referencia para crear nuevas skills — no debe activarse por sí sola. Al crear una skill real, copia esta carpeta y reemplaza este texto por las condiciones concretas de activación, empezando por "Usar cuando...".
 ---
 
 # Nombre de la skill
