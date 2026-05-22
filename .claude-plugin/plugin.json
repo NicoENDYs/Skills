@@ -1,0 +1,21 @@
+{
+  "name": "endys-skills",
+  "description": "Colección personal de comandos y skills de Claude Code de NicoENDYs: análisis y documentación de arquitectura de software, plantillas y utilidades.",
+  "version": "0.1.0",
+  "author": {
+    "name": "NicoENDYs"
+  },
+  "homepage": "https://github.com/NicoENDYs/Skills",
+  "repository": "https://github.com/NicoENDYs/Skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "commands",
+    "skills",
+    "architecture",
+    "documentation",
+    "arc42",
+    "c4-model",
+    "adr"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "endys",
+  "owner": {
+    "name": "NicoENDYs"
+  },
+  "metadata": {
+    "description": "Marketplace personal de comandos y skills de Claude Code de NicoENDYs.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "endys-skills",
+      "source": "./",
+      "description": "Comandos y skills de Claude Code: análisis y documentación de arquitectura de software, plantillas y utilidades.",
+      "version": "0.1.0",
+      "author": {
+        "name": "NicoENDYs"
+      },
+      "keywords": [
+        "claude-code",
+        "commands",
+        "skills",
+        "architecture",
+        "documentation"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
