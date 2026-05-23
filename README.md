@@ -74,6 +74,8 @@ cp -r skills/*         .claude/skills/
 | Skill           | Descripción                                      |
 |-----------------|--------------------------------------------------|
 | `example-skill` | Plantilla comentada para crear nuevas skills.    |
+| `arch-gen`      | Genera y mantiene documentación de arquitectura de software (C4, arc42, ADRs, diagramas PlantUML). Se activa cuando Claude detecta tareas de documentación de arquitectura. |
+| `ui-rules`      | Reglas operativas de diseño frontend anti-UI genérica de IA para proyectos React/Vite + Tailwind 4 + tokens CSS. Cubre UI de producto (dashboards, tablas, formularios) y páginas de marketing. Incluye sistema de tokens, reglas críticas, checklist de auto-auditoría y definición del rol de la IA como implementador. |
 
 ---
 
@@ -137,6 +139,10 @@ Skills/
 │   ├── arch-scan.md
 │   └── example-command.md
 ├── skills/                  Skills que Claude activa automáticamente.
+│   ├── arch-gen/
+│   │   └── SKILL.md
+│   ├── ui-rules/
+│   │   └── SKILL.md
 │   └── example-skill/
 │       └── SKILL.md
 ├── CHANGELOG.md
